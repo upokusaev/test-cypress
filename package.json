@@ -1,0 +1,19 @@
+{
+  "name": "test-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+  },
+  "author": "Yury Pokusaev",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.8.0",
+    "cypress-wait-until": "^1.6.1",
+    "sendsay-api": "^2.4.0"
+  },
+  "dependencies": {}
+}
